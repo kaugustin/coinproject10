@@ -9,7 +9,7 @@
 <entry key="method" type="xstring" value="Absolute"/>
 <entry key="samplingMethod" type="xstring" value="Random"/>
 <entry key="fraction" type="xdouble" value="0.2"/>
-<entry key="count" type="xint" value="20000"/>
+<entry key="count" type="xint" value="5000"/>
 <entry key="random_seed" type="xstring" isnull="true" value=""/>
 <entry key="class_column" type="xstring" value="Term as String"/>
 </config>

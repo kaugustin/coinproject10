@@ -6,6 +6,11 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<config key="inexclude_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inexclude" type="xstring" value="Exclude rows from reference table"/>
 <config key="dataTableColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -22,11 +27,6 @@
 <entry key="useRowID" type="xboolean" value="true"/>
 <entry key="columnName" type="xstring" isnull="true" value=""/>
 </config>
-<config key="inexclude_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inexclude" type="xstring" value="Exclude rows from reference table"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>

@@ -7,9 +7,9 @@
 </config>
 <config key="model">
 <entry key="driver" type="xstring" value="com.mysql.jdbc.Driver"/>
-<entry key="database" type="xstring" value="jdbc:mysql://127.0.0.1:3306/us_election?useOldAliasMetadataBehavior=true"/>
+<entry key="database" type="xstring" value="jdbc:mysql://127.0.0.1:3306/us_election2?useOldAliasMetadataBehavior=true"/>
 <entry key="user" type="xstring" value="root"/>
-<entry key="password" type="xstring" value=""/>
+<entry key="password" type="xstring" value="MyNewPass"/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
 <entry key="retrieveMetadataInConfigure" type="xboolean" value="true"/>
@@ -19,7 +19,7 @@
 <config key="default-connection">
 <entry key="hostname" type="xstring" value="127.0.0.1"/>
 <entry key="port" type="xint" value="3306"/>
-<entry key="databaseName" type="xstring" value="us_election"/>
+<entry key="databaseName" type="xstring" value="us_election2"/>
 </config>
 </config>
 <config key="nodeAnnotation">
@@ -37,7 +37,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.database.connectors.mysql.MySQLConnectorNodeFactory"/>
 <entry key="node-name" type="xstring" value="MySQL Connector"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME connectors to common databases"/>
@@ -50,16 +50,21 @@
 <entry key="node-feature-version" type="xstring" value="3.1.1.v201601281239"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="MySQL Connector"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
+<entry key="port_object_summary" type="xstring" value="DB: mysql URL: jdbc:mysql://127.0.0.1:3306/us_election2?useOldAliasMetadataBehavior=true"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="41c6c63a-654a-43fb-bde7-7fd91a5b61d2"/>
 </config>
 </config>

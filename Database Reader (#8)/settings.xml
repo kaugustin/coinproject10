@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT * FROM tweet"/>
+<entry key="statement" type="xstring" value="SELECT * FROM tweet JOIN user ON tweet.user_id=user.id"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.mysql.jdbc.Driver"/>
 <entry key="database" type="xstring" value="jdbc:mysql://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
