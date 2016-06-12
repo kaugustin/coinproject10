@@ -23,7 +23,7 @@
 <entry key="DocumentColumn" type="xstring" value="Stemmed Document"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory"/>
 <entry key="node-name" type="xstring" value="Bag of Words Creator"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>

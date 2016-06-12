@@ -6,17 +6,22 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="first" type="xstring" value="Document class"/>
-<entry key="second" type="xstring" value="Prediction (Document class)"/>
-<entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
-<entry key="sortingReversed" type="xboolean" value="false"/>
-<entry key="sortingStrategy" type="xint" value="0"/>
-<entry key="ignore.missing.values" type="xboolean" value="true"/>
+<entry key="url" type="xstring" value="C:\Users\Kai\Desktop\KNIME\polldata.csv"/>
+<entry key="colDelimiter" type="xstring" value=";"/>
+<entry key="rowDelimiter" type="xstring" value="%%00010"/>
+<entry key="quote" type="xstring" value="&quot;"/>
+<entry key="commentStart" type="xstring" value="#"/>
+<entry key="hasRowHeader" type="xboolean" value="true"/>
+<entry key="hasColHeader" type="xboolean" value="true"/>
+<entry key="supportShortLines" type="xboolean" value="false"/>
+<entry key="limitRowsCount" type="xlong" value="-1"/>
+<entry key="skipFirstLinesCount" type="xint" value="-1"/>
+<entry key="characterSetName" type="xstring" isnull="true" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory"/>
-<entry key="node-name" type="xstring" value="Scorer"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="CSV Reader"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
@@ -26,21 +31,20 @@
 <entry key="node-feature-vendor" type="xstring" value="Lhasa Limited (http://www.lhasalimited.org)"/>
 <entry key="node-feature-version" type="xstring" value="1.1.0.v201602151519"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Scorer"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="name" type="xstring" value="CSV Reader"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 76, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="0734eae0-e5fd-40e5-83da-cf9fa0a94649"/>
 </config>
 </config>

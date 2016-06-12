@@ -9,11 +9,13 @@
 <config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Document"/>
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="timestamp_ms"/>
+<entry key="1" type="xstring" value="user_id"/>
+<entry key="2" type="xstring" value="Document"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="20"/>
+<entry key="array-size" type="xint" value="18"/>
 <entry key="0" type="xstring" value="id"/>
 <entry key="1" type="xstring" value="text"/>
 <entry key="2" type="xstring" value="source"/>
@@ -30,10 +32,8 @@
 <entry key="13" type="xstring" value="possibly_sensitive"/>
 <entry key="14" type="xstring" value="filter_level"/>
 <entry key="15" type="xstring" value="lang"/>
-<entry key="16" type="xstring" value="timestamp_ms"/>
-<entry key="17" type="xstring" value="user_id"/>
-<entry key="18" type="xstring" value="quoted_status_id"/>
-<entry key="19" type="xstring" value="candidate"/>
+<entry key="16" type="xstring" value="quoted_status_id"/>
+<entry key="17" type="xstring" value="candidate"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">

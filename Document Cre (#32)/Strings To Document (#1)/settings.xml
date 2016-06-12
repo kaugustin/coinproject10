@@ -20,7 +20,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="TitleCol" type="xstring" value="text"/>
+<entry key="TitleCol" type="xstring" value="id"/>
 <config key="AuthorSplitChar_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -65,7 +65,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="SourceColumn" type="xstring" value="source"/>
+<entry key="SourceColumn" type="xstring" value="candidate"/>
 <config key="Number of threads_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
