@@ -33,7 +33,7 @@
 <entry key="Case" type="xstring" value="Lower case"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.preprocessing.caseconverter.CaseConverterNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Case converter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>

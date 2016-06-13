@@ -39,7 +39,7 @@
 <entry key="generic_parse" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
 <entry key="message" type="xstring" value="Ignoring column &quot;timestamp_ms&quot;%%00010"/>

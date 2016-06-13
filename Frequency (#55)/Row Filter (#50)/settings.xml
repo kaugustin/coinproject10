@@ -9,7 +9,7 @@
 <config key="rowFilter">
 <entry key="RowFilter_TypeID" type="xstring" value="RowNumber_RowFilter"/>
 <entry key="RowRangeStart" type="xint" value="0"/>
-<entry key="RowRangeEnd" type="xint" value="999"/>
+<entry key="RowRangeEnd" type="xint" value="499"/>
 <entry key="RowRangeInclude" type="xboolean" value="true"/>
 </config>
 </config>
